@@ -47,7 +47,7 @@ This is a customized version of the official **Vite react-ts preset**
     
     LINT
     $ npm run lint 
-    $ npm run lin:fix #to fix lint errors
+    $ npm run lint:fix #to fix lint errors
     
     TEST
     $ npm test
