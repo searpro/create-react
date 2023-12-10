@@ -5,10 +5,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/searpro/create-react.git"
+    "url": "git+https://github.com/searpro/create-react.git"
   },
+  "private": false,
   "bin": {
-    "@searpro/create-react": "create-app.js"
+    "create-react": "create-app.js"
   },
   "type": "module",
   "keywords": [
