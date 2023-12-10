@@ -1,6 +1,6 @@
 {
   "name": "@searpro/create-react",
-  "version": "0.0.2-alpha",
+  "version": "0.0.3-alpha",
   "description": "Spin up a ready to tweak react app powered by Vite, redux-toolkit and TypeScript. ",
   "main": "index.js",
   "repository": {
