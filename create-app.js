@@ -7,19 +7,14 @@
 import path from 'path';
 import fs from 'fs';
 import { exec } from 'node:child_process';
-import { readPackage } from 'read-pkg';
 import ora from 'ora';
 import chalk from 'chalk';
-
-const pkg = await readPackage();
-
-
 
 let projectName = process.argv[2];
 const gitRepo = 'https://github.com/searpro/react-redux-ts.git';
 
 console.log('\n');
-console.log(chalk.blue.bgWhiteBright.blue(` @searpro/create-react@${pkg.version} `));
+console.log(chalk.blue.bgWhiteBright.blue(` @searpro/create-react `));
 console.log('\n');
 
 const spinner = ora({ color: 'white' }).start();
